@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add a Bus Route</title>
+    <link rel="stylesheet" href="addroute.css">
+</head>
+<body>
+
+<form method="POST" action="addroute.html" class="route-form">
+
+    <h1>Add a Bus Route</h1>
+
+    <div class="form-grid">
+
+        <div class="field">
+            <label for="from">From</label>
+            <input type="text" id="from" name="from">
+        </div>
+
+        <div class="field">
+            <label for="to">To</label>
+            <input type="text" id="to" name="to">
+        </div>
+
+        <div class="field">
+            <label for="distance">Distance</label>
+            <input type="number" id="distance" name="distance">
+        </div>
+
+        <div class="field">
+            <label for="fare">Fare</label>
+            <input type="number" id="fare" name="fare">
+        </div>
+
+        <div class="field">
+            <label for="s_time">Start Time</label>
+            <input type="time" id="s_time" name="s_time">
+        </div>
+
+        <div class="field">
+            <label for="r_time">Reaching Time</label>
+            <input type="time" id="r_time" name="r_time">
+        </div>
+
+    </div>
+
+    <button class="button" type="submit">Add Route</button>
+
+    <div class="form-footer">
+        <a href="delete_route.html">Delete Route</a>
+        <a href="index.html">Home</a>
+    </div>
+
+</form>
+</body>

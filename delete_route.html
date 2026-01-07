@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete a Bus Route</title>
+    <link rel="stylesheet" href="deleteroute.css">
+</head>
+<body>
+
+<form method="POST" action="delete_route.html" class="route-form">
+
+    <h1>Delete a Bus Route</h1>
+
+    <div class="form-grid">
+
+        <div class="field">
+            <label for="start_time">Start Time</label>
+            <input type="time" id="start_time" name="start_time" required>
+        </div>
+
+        <div class="field">
+            <label for="from_location">From Location</label>
+            <input type="text" id="from_location" name="from_location" required>
+        </div>
+
+        <div class="field">
+            <label for="to_location">To Location</label>
+            <input type="text" id="to_location" name="to_location" required>
+        </div>
+
+    </div>
+
+    <button class="button delete" type="submit">Delete Route</button>
+
+    <div class="form-footer">
+        <a href="addroute.html">Add Route</a>
+        <a href="index.html">Home</a>
+    </div>
+
+</form>
+

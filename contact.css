@@ -1,0 +1,104 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #635ef5; /* solid background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main contact box */
+.contact-container {
+    background: #c78ef9;
+    backdrop-filter: blur(10px);
+    width: 450px;
+    max-width: 90%;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+
+}
+
+/* Heading */
+.contact-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.form-group label {
+    margin-bottom: 8px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Inputs and textarea */
+input[type="text"], input[type="email"], textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+    background: rgba(255, 255, 255);
+}
+
+/* Textarea specific */
+textarea {
+    resize: none;
+}
+
+/* Buttons container */
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Send & Home buttons */
+.button {
+    flex: 1;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+    text-decoration: none; /* for anchor button */
+}
+
+/* Button hover effect */
+.button:hover {
+    background: #3d261b;
+    border: 1px solid red;
+    box-shadow: 0 0 12px rgba(255,0,0,0.7);
+}
+
+/* Ensure contact box does not resize on hover */
+.contact-container:hover {
+    transform: none;
+}

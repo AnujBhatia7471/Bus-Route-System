@@ -1,0 +1,137 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+
+}
+
+a{
+	text-decoration: overline;
+}
+
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	
+	text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+	background-image: url('bus1.jpg');
+	background-size: cover;
+	padding: 200px;
+	text-align: center;
+	
+}
+
+.hero h2 {
+	font-size: 48px;
+	margin: 0;
+	text-shadow:2px 4px 4px white;
+}
+
+.hero p {
+	font-size: 24px;
+	margin-bottom: 30px;
+	color:red;
+	text-shadow:2px 4px 4px white;
+}
+
+.btn {
+	background-color: #f00;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #d00;
+}
+
+/* Features section styles */
+.features {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 50px auto;
+	max-width: 1000px;
+}
+
+.feature {
+	flex-basis: 250px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+.feature h3 {
+	font-size: 24px;
+	margin: 0;
+}
+
+.feature p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 20px 0;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: none;
+}

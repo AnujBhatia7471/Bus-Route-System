@@ -1,0 +1,119 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #635ef5; /* Main background */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header div */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.marquee {
+    background-color: lightgrey;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Title */
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form container */
+.form-container {
+    background-color: #c78ef9; /* Light purple */
+    padding: 30px;
+    width: 400px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Intro text */
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2b0a44;
+}
+
+/* Form styling */
+.route-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.route-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+.submit-btn {
+    display: block;
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    margin: 20px auto 0 auto;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #d8b7f5; /* Light purple hover */
+    color: red;
+    box-shadow: 0 0 10px red;
+}
+
+/* Table results */
+.result-table {
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #d8b7f5;
+}
+
+.no-result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: yellow;
+}
